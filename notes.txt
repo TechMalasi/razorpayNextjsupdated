@@ -1,0 +1,7 @@
+ const data = await fetch("/api/razorpay", {
+      // method: "GET",
+      // headers: {
+      //   // Authorization: 'YOUR_AUTH_HERE'
+      // },
+      // body: JSON.stringify({ productId }),
+    }).then((t) => t.json());
